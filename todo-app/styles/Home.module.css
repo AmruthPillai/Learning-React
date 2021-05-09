@@ -1,0 +1,16 @@
+.item {
+  @apply py-3 border border-t-0 border-gray-700;
+}
+
+.item:first-child {
+  @apply border-t rounded-t;
+}
+
+.item:last-child {
+  @apply rounded-b;
+}
+
+.item.done {
+  opacity: 0.5;
+  text-decoration: line-through;
+}

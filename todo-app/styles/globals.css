@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+html,
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.item.done {
+  text-decoration: line-through;
+}
